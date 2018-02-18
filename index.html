@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do-List-App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div id="content">
+        <h3 id="title">To Do List</h3>
+
+        <div id="addTask">
+            <p>Add Task</p>
+
+            <p>
+                <input type="text" placeholder="Enter task here" id="inputTask">
+                <input type="button" value="Add Task" id="addButton">
+            </p>
+        </div>
+        <hr>
+        <div id="incompleteTaskDiv">
+            <p>Uncompleted Tasks</p>
+
+            <p class="removeMargin" id="incomplete">You currently have no incompleted tasks</p>
+
+            <ul id="uncompletedTasks">
+
+            </ul>
+
+        </div>
+        <hr>
+        <div id="completeTaskDiv">
+            <p>Completed Tasks</p>
+
+            <p class="removeMargin" id="complete">You currently have no completed tasks recorded</p>
+
+            <ul id="completedTasks">
+
+            </ul>
+
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="js/app.js"></script>
+
+</html>
