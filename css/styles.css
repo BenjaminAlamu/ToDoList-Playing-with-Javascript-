@@ -1,0 +1,68 @@
+body {
+    font-family: "Lato";
+    display: flex;
+    background-color: #e9ece9;
+}
+
+#content {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 1.5em;
+    border: 1px solid #65798a;
+    padding: 5px;
+    font-family: "Lato";
+}
+
+.removeMargin {
+    margin-top: -15px;
+}
+
+ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+#addButton {
+    padding: 15px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 15px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 15%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+
+#inputTask {
+    display: inline;
+}
+
+.remove,
+.edit {
+    padding: 10px;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 15%;
+    border: 1px solid;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin: 5px;
+}
+
+.edit {
+    background-color: #292a2b;
+}
+
+.remove {
+    background-color: #4bc970;
+}
